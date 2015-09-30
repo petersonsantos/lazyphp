@@ -1,5 +1,7 @@
 # LazyPHP
 
+http://www.lazyphp.com.br/doc/
+
 ###### O LazyPHP é um mini framework extremamente simples e didático para a construção de aplicações web na arquitetura MVC utilizando PHP & MySQL.
 
 Créditos: Prof. Miguel http://www.miguel.pro.br/
