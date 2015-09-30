@@ -1,0 +1,42 @@
+#wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+#sidebar-wrapper{
+}
+
+#page-content-wrapper{
+    padding:0 40px 0 40px;
+}
+
+#mostrar_menu{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    
+    body{
+        margin-top:50px;
+    }
+    
+    #sidebar-wrapper{
+        width:100%;
+        display: none;
+    }
+    #page-content-wrapper{
+        width: 100%;
+    }
+
+    #mostrar_menu{
+        display: block;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background: black;
+        z-index: 1000;
+        color: #CCC;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
